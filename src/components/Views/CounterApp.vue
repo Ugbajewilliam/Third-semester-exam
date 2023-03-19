@@ -162,6 +162,60 @@ margin-top: 1rem;
     }
   }
 
+  @media (max-width: 576px) {
+  .counter-title {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .current-value {
+    font-size: 2rem;
+  }
+  .counter-button {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .input-container label {
+    font-size: 1rem;
+  }
+  .input-container input {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .input-container button {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .button-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .input-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .counter-Container {
+    padding-top: 0.2rem;
+    margin-top: 0;
+    height: auto;
+  }
+  .current-value {
+    margin-bottom: 0.5rem;
+  }
+  .button-container {
+    margin-bottom: 0.5rem;
+  }
+  .input-container {
+    margin-top: 0.5rem;
+  }
+}
+
+
 
 .input-container button:hover{
   transform: scale(1.1);
