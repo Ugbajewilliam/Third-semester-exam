@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my-counter
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Third-semester
+>>>>>>> 65c8e0ed22f79f6903253c9b86863fb2d3274fba
